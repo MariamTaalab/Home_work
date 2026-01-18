@@ -1,0 +1,17 @@
+/*4. a) Declare int x and double y with any values.
+b) Create num result = x + y; print it and also result.toDouble().
+c) Print results of x - 1, y * 3, and x / 2 */
+
+void main() {
+  //a
+  int x = 3;
+  double y = 2;
+  //b
+  num result = x + y;
+  print(result);
+  print(result.toDouble());
+  //c
+  print(x - 1);
+  print(y * 3);
+  print(x / 2);
+}
